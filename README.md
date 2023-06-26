@@ -13,6 +13,13 @@ All resources and notes from the [The Complete Junior to Senior Web Developer Ro
     - [Resources: SSH Into A Server](#resources-ssh-into-a-server)
     - [Extra Solution: Set Up SSH on Github](#extra-solution-set-up-ssh-on-github)
   - [__Performance Part 1__](#performance-part-1)
+    - [3 Keys To Performance](#3-keys-to-performance)
+    - [Network Performance](#network-performance)
+    - [Image File Formats](#image-file-formats)
+    - [Resources: Image File Formats](#resources-image-file-formats)
+    - [Image Optimizations](#image-optimizations)
+    - [Resources: Delivery Optimizations](#resources-delivery-optimizations)
+    - [Resources: Async + Defer](#resources-async--defer)
   - [__OPTIONAL: React + Redux + Module Bundling__](#optional-react--redux--module-bundling)
   - [__Performance Part 2__](#performance-part-2)
   - [__Testing__](#testing)
@@ -103,6 +110,79 @@ Here is a great visual guide created by a fellow student if you are still having
 <https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf >
 
 ## __Performance Part 1__
+
+### 3 Keys To Performance
+
+**Frontend:**
+
+- Critical Render Path
+- Optimized Code
+- Progressive Web App
+
+**Network:**
+
+- Minimize Files
+- Minimize Delivery
+
+**Backend:**
+
+- CDNs
+- Caching
+- Load Balancing
+- DB Scaling
+- GZIP
+
+### Network Performance
+
+- Minimize Text (JS, CSS, HTML)
+  - <https://skalman.github.io/UglifyJS-online/>
+- Minimize Images (JPG)
+
+### Image File Formats
+
+- JPG: Usually used for photos, images with no transparency.
+- GIF: Limited number of colors and used for small animations.
+- PNG: Limited number of colors, usually used for logos and can add transparency.
+- SVG: Vector graphics with small size and greatly scalable.
+
+### Resources: Image File Formats
+
+<https://99designs.com/blog/tips/image-file-types/>
+
+<https://pageweight.imgix.com/>
+
+<https://www.sitepoint.com/gif-png-jpg-which-one-to-use/>
+
+Additionally, here are some extra resources:
+
+<https://www.verexif.com/en/>
+
+<https://css-tricks.com/snippets/css/media-queries-for-standard-devices/>
+
+[Media Queries Cheat Sheet](<https://gist.github.com/bartholomej/8415655>)
+
+### Image Optimizations
+
+- If you want transparency: use a PNG.
+- If you want animations: use a GIF.
+- If you want colorful images: use a JPG.
+- If you want simple icons, logos and illustrations: use SVG.
+- Reduce PNG with [TinyPNG](https://tinyjpg.com).
+- Reduce JPG with [JPEG-optimizer](http://216.92.55.187).
+- Try to choose simple illustrations over highly detailed photographs.
+- Always lower JPEG image quality (30-60%).
+- Resize image based on size it will be displayed.
+- Display different sized images for different backgrounds.
+- Use CDNs like [imigx](https://imgix.com).
+- Remove image metadata
+
+### Resources: Delivery Optimizations
+
+https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+
+### Resources: Async + Defer
+
+https://stackoverflow.com/questions/10808109/script-tag-async-defer
 
 ## __OPTIONAL: React + Redux + Module Bundling__
 
