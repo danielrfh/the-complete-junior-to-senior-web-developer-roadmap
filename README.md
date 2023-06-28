@@ -3,8 +3,8 @@
 All resources and notes from the [The Complete Junior to Senior Web Developer Roadmap](https://zerotomastery.io/courses/junior-to-senior-web-developer-roadmap/)
 
 - [The Complete Junior to Senior Web Developer Roadmap](#the-complete-junior-to-senior-web-developer-roadmap)
-  - [__Introduction__](#introduction)
-  - [__SSH__](#ssh)
+  - [**Introduction**](#introduction)
+  - [**SSH**](#ssh)
     - [Resources: SSH Command](#resources-ssh-command)
     - [Optional: Digital Ocean Set Up](#optional-digital-ocean-set-up)
     - [Optional: Digital Ocean Server](#optional-digital-ocean-server)
@@ -12,7 +12,7 @@ All resources and notes from the [The Complete Junior to Senior Web Developer Ro
     - [Quick Note: SSH Into A Server](#quick-note-ssh-into-a-server)
     - [Resources: SSH Into A Server](#resources-ssh-into-a-server)
     - [Extra Solution: Set Up SSH on Github](#extra-solution-set-up-ssh-on-github)
-  - [__Performance Part 1__](#performance-part-1)
+  - [**Performance Part 1**](#performance-part-1)
     - [3 Keys To Performance](#3-keys-to-performance)
     - [Network Performance](#network-performance)
     - [Image File Formats](#image-file-formats)
@@ -20,29 +20,30 @@ All resources and notes from the [The Complete Junior to Senior Web Developer Ro
     - [Image Optimizations](#image-optimizations)
     - [Resources: Delivery Optimizations](#resources-delivery-optimizations)
     - [Resources: Async + Defer](#resources-async--defer)
-  - [__OPTIONAL: React + Redux + Module Bundling__](#optional-react--redux--module-bundling)
-  - [__Performance Part 2__](#performance-part-2)
-  - [__Testing__](#testing)
-  - [__TypeScript__](#typescript)
-  - [__SPA vs Server Side Rendering__](#spa-vs-server-side-rendering)
-  - [__Security__](#security)
-  - [__Code Analysis__](#code-analysis)
-  - [__Docker__](#docker)
-  - [__Redis__](#redis)
-  - [__Sessions + JWT__](#sessions--jwt)
-  - [__AWS__](#aws)
-  - [__Performance Part 3__](#performance-part-3)
-  - [__CI/CD__](#cicd)
-  - [__Extra Bits__](#extra-bits)
-  - [__The Final Video__](#the-final-video)
-  - [__Extras: For Windows Users__](#extras-for-windows-users)
-  - [__Bonus: AMA Video!__](#bonus-ama-video)
+    - [Resources: Performance Tools](#resources-performance-tools)
+  - [**OPTIONAL: React + Redux + Module Bundling**](#optional-react--redux--module-bundling)
+  - [**Performance Part 2**](#performance-part-2)
+  - [**Testing**](#testing)
+  - [**TypeScript**](#typescript)
+  - [**SPA vs Server Side Rendering**](#spa-vs-server-side-rendering)
+  - [**Security**](#security)
+  - [**Code Analysis**](#code-analysis)
+  - [**Docker**](#docker)
+  - [**Redis**](#redis)
+  - [**Sessions + JWT**](#sessions--jwt)
+  - [**AWS**](#aws)
+  - [**Performance Part 3**](#performance-part-3)
+  - [**CI/CD**](#cicd)
+  - [**Extra Bits**](#extra-bits)
+  - [**The Final Video**](#the-final-video)
+  - [**Extras: For Windows Users**](#extras-for-windows-users)
+  - [**Bonus: AMA Video!**](#bonus-ama-video)
 
-## __Introduction__
+## **Introduction**
 
 [Don't Be A Junior Developer](https://zerotomastery.io/blog/dont-be-a-junior-developer-the-roadmap)
 
-## __SSH__
+## **SSH**
 
 ### Resources: SSH Command
 
@@ -51,7 +52,7 @@ Use PuTTY: <https://mediatemple.net/community/products/dv/204404604/using-ssh-i
 
 Windows 10: <https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/>
 
-Extra:  
+Extra:
 
 1. <https://www.ssh.com/ssh/putty/windows/>
 2. <https://www.memset.com/docs/server-security/secure-communication-ssh/using-ssh-windows/>
@@ -75,7 +76,7 @@ Want to learn more about Asymmetric Encryption? Check out these extra videos :
 <https://www.youtube.com/watch?v=NmM9HA2MQGI>  
 <https://www.youtube.com/watch?v=Yjrfm_oRO0w>  
 <https://www.youtube.com/watch?v=vsXMMT2CqqE&t=>  
-<https://www.youtube.com/watch?v=NF1pwjL9-DE>  
+<https://www.youtube.com/watch?v=NF1pwjL9-DE>
 
 ### Quick Note: SSH Into A Server
 
@@ -89,7 +90,7 @@ Also, if you are on Windows, you may have to use GitBash instead of Powershell. 
 ### Resources: SSH Into A Server
 
 **Recommended `ssh-keygen` command:**
-  
+
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 **Windows:**  
@@ -99,17 +100,17 @@ You can read more about this here:
 
 Another option is to use <https://www.ssh.com/ssh/putty/windows/puttygen>
 
-`pbcopy` command: <https://superuser.com/questions/472598/pbcopy-for-windows/1171448#1171448>  
+`pbcopy` command: <https://superuser.com/questions/472598/pbcopy-for-windows/1171448#1171448>
 
 **Extra Video:**  
-If you want to learn a little bit more about how SSH works internally, watch this excellent video: <https://youtu.be/ORcvSkgdA58>  
+If you want to learn a little bit more about how SSH works internally, watch this excellent video: <https://youtu.be/ORcvSkgdA58>
 
 ### Extra Solution: Set Up SSH on Github
 
 Here is a great visual guide created by a fellow student if you are still having problems solving this exercise (especially on Windows):  
 <https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf >
 
-## __Performance Part 1__
+## **Performance Part 1**
 
 ### 3 Keys To Performance
 
@@ -159,7 +160,7 @@ Additionally, here are some extra resources:
 
 <https://css-tricks.com/snippets/css/media-queries-for-standard-devices/>
 
-[Media Queries Cheat Sheet](<https://gist.github.com/bartholomej/8415655>)
+[Media Queries Cheat Sheet](https://gist.github.com/bartholomej/8415655)
 
 ### Image Optimizations
 
@@ -178,44 +179,49 @@ Additionally, here are some extra resources:
 
 ### Resources: Delivery Optimizations
 
-https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+<https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser>
 
 ### Resources: Async + Defer
 
-https://stackoverflow.com/questions/10808109/script-tag-async-defer
+<https://stackoverflow.com/questions/10808109/script-tag-async-defer>
 
-## __OPTIONAL: React + Redux + Module Bundling__
+### Resources: Performance Tools
 
-## __Performance Part 2__
+[PageSpeed Insights](https://pagespeed.web.dev/)
+[WebPageTest](https://www.webpagetest.org/)
 
-## __Testing__
+## **OPTIONAL: React + Redux + Module Bundling**
 
-## __TypeScript__
+## **Performance Part 2**
 
-## __SPA vs Server Side Rendering__
+## **Testing**
 
-## __Security__
+## **TypeScript**
 
-## __Code Analysis__
+## **SPA vs Server Side Rendering**
 
-## __Docker__
+## **Security**
 
-## __Redis__
+## **Code Analysis**
 
-## __Sessions + JWT__
+## **Docker**
 
-## __AWS__
+## **Redis**
 
-## __Performance Part 3__
+## **Sessions + JWT**
 
-## __CI/CD__
+## **AWS**
 
-## __Extra Bits__
+## **Performance Part 3**
 
-## __The Final Video__
+## **CI/CD**
 
-## __Extras: For Windows Users__
+## **Extra Bits**
 
-## __Bonus: AMA Video!__
+## **The Final Video**
+
+## **Extras: For Windows Users**
+
+## **Bonus: AMA Video!**
 
 [def]: #typescript
